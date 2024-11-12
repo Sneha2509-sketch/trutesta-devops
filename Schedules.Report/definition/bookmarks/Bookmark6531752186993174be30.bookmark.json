@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.2.0/schema.json",
+  "displayName": "Show Review Time",
+  "name": "Bookmark6531752186993174be30",
+  "options": {
+    "targetVisualNames": [
+      "3ebea80018086c3393ed"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "ReportSectiona692d637325753271750",
+    "sections": {
+      "ReportSectiona692d637325753271750": {
+        "visualContainers": {},
+        "visualContainerGroups": {
+          "de93b21c4aa84a10061b": {
+            "isHidden": true
+          },
+          "2fd10480a39065705362": {
+            "isHidden": false
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "true"
+                  }
+                }
+              },
+              "visible": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

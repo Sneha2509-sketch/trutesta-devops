@@ -1,0 +1,4575 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.137.1102.0 (24.10)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Workspace_UUID\",\"Dataflow_UUID\",\"Calendar\",\"organization\",\"site\",\"schedule\",\"schedule_group\",\"ScheduleDFLastUpdate\",\"ScheduleStates\",\"schedule_kpi\",\"Health Status\",\"deleteAllRows\",\"version\",\"Report_Version\",\"ResourceDFLastUpdated\",\"Resource_DF_DBName\",\"Resource_DF_Version\",\"Schedule DF DBName\",\"Schedule DF Version\",\"Static_States_DF_Version\",\"StaticStatesDFLastUpdated\",\"environment\",\"workspace\",\"getWorkspaceUUID\",\"getDataflowUUID\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "calendar": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "calendar": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "almanac": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "datebook": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "agenda": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "logbook": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "diary": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "timetable": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "calendar.column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pilaster": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pier": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pillar": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "post": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "support": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stake": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pole": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "buttress": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "underpinning": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "contribution": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "calendar.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "calendar.date_filter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "DateFilter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date filter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DateFilter": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "filter": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "moment filter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period filter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "date strainer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "date sifter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "strainer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sifter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "date sieve": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date mesh": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date riddle": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date screen": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "calendar.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "moment hierarchy": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period hierarchy": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "date ladder": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date grading": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date order": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "date pyramid": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ladder": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grading": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "order": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pyramid": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "calendar.date_hierarchy.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "calendar.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "calendar.date_hierarchy.month_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month Name"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month nickname": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month title": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month label": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month tag": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "mth name": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "calendar.date_hierarchy.week_of_month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Week of Month"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "week of month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "week of mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "calendar.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "calendar.dow": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "DOW"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dow": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendar.is_working_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Is Working Day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "is working day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "working day": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "calendar.max_ISO_week": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Max_ISO_Weeks"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "max ISO week": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Max_ISO_Weeks": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ISO week": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "maximum iso week": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "calendar.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "calendar.month_445_ISO": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Month_445_ISO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month 445 ISO": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Month_445_ISO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ISO": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "445 ISO": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth 445 iso": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "calendar.month_diff": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "MonthDiff"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month diff": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MonthDiff": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "diff": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth diff": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "calendar.month_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Month Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month nickname": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month title": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month label": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month tag": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "mth name": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "calendar.month_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Month Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "calendar.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Quarter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "calendar.week": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Week"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "week": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendar.week_ISO": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Week_ISO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "week ISO": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Week_ISO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ISO": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "calendar.week_of_month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Week of Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "week of month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "week of mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "calendar.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "calendar.year_ISO": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Year_ISO"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year ISO": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Year_ISO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ISO": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "yr iso": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "sample.subcategory": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sample",
+                    "ConceptualProperty": "Sub-Category"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Category": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "calendar_date_hierarchy_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_hierarchy.date"
+                      },
+                      "Subject": {
+                        "Role": "calendar.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar.date_hierarchy": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy"
+                    }
+                  },
+                  "calendar.date_hierarchy.date": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "calendar.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar.date_hierarchy": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy"
+                    }
+                  },
+                  "calendar.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_date_hierarchy_has_month_name": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_hierarchy.month_name"
+                      },
+                      "Subject": {
+                        "Role": "calendar.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar.date_hierarchy": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy"
+                    }
+                  },
+                  "calendar.date_hierarchy.month_name": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy.month_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_date_hierarchy_has_week_of_month": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_hierarchy.week_of_month"
+                      },
+                      "Subject": {
+                        "Role": "calendar.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar.date_hierarchy": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy"
+                    }
+                  },
+                  "calendar.date_hierarchy.week_of_month": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy.week_of_month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "calendar.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar.date_hierarchy": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy"
+                    }
+                  },
+                  "calendar.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_column": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.column"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.column": {
+                    "Target": {
+                      "Entity": "calendar.column"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.date": {
+                    "Target": {
+                      "Entity": "calendar.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_date_filter": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_filter"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.date_filter": {
+                    "Target": {
+                      "Entity": "calendar.date_filter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.date_hierarchy": {
+                    "Target": {
+                      "Entity": "calendar.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_dow": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.dow"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.dow": {
+                    "Target": {
+                      "Entity": "calendar.dow"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_is_working_day": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.is_working_day"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.is_working_day": {
+                    "Target": {
+                      "Entity": "calendar.is_working_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_max_ISO_week": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.max_ISO_week"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.max_ISO_week": {
+                    "Target": {
+                      "Entity": "calendar.max_ISO_week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.month"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.month": {
+                    "Target": {
+                      "Entity": "calendar.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_month_445_ISO": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.month_445_ISO"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.month_445_ISO": {
+                    "Target": {
+                      "Entity": "calendar.month_445_ISO"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_month_diff": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.month_diff"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.month_diff": {
+                    "Target": {
+                      "Entity": "calendar.month_diff"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_month_name": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.month_name"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.month_name": {
+                    "Target": {
+                      "Entity": "calendar.month_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_month_year": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.month_year"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.month_year": {
+                    "Target": {
+                      "Entity": "calendar.month_year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.quarter"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.quarter": {
+                    "Target": {
+                      "Entity": "calendar.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_task_avg_days_to_review_30_days": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "task.avg_days_to_review_30_days"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "task.avg_days_to_review_30_days": {
+                    "Target": {
+                      "Entity": "task.avg_days_to_review_30_days"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_week": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.week"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.week": {
+                    "Target": {
+                      "Entity": "calendar.week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_week_ISO": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.week_ISO"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.week_ISO": {
+                    "Target": {
+                      "Entity": "calendar.week_ISO"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_week_of_month": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.week_of_month"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.week_of_month": {
+                    "Target": {
+                      "Entity": "calendar.week_of_month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.year"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.year": {
+                    "Target": {
+                      "Entity": "calendar.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_year_ISO": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.year_ISO"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.year_ISO": {
+                    "Target": {
+                      "Entity": "calendar.year_ISO"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "deleteAllRows",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "description": "If set to TRUE, then all rows are removed trom tables",
+        "expression": "false meta [IsParameterQuery=true, List={true, false}, DefaultValue=true, Type=\"Logical\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "887f265b-0aa5-48fc-8f88-c15f5d3ddb68"
+      },
+      {
+        "name": "version",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"2.0.1\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "7493eda5-897f-4364-a32e-7c8dc0d70b8c"
+      },
+      {
+        "name": "environment",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"Intertek\" meta [IsParameterQuery=true, List={\"SemaTree\", \"Intertek\"}, DefaultValue=\"SemaTree\", Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "31d7f07e-d59a-4ec4-adea-bbb505ea0723"
+      },
+      {
+        "name": "workspace",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"TEAM Electrical Applications Reporting (DEV)\" meta [IsParameterQuery=true, List={\"Trutesta QA\", \"Trutesta Sandbox\", \"Trutesta Production\", \"TEAM Electrical Applications Reporting (DEV)\", \"TEAM Electrical Applications Reporting (STAGE)\", \"TEAM Electrical Applications Reporting \", \"Experimental\"}, DefaultValue=\"Trutesta QA\", Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "7086bdc3-b9bc-4320-9cc0-7f208b018d7f"
+      },
+      {
+        "name": "getWorkspaceUUID",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "() as text => ",
+          "let",
+          "    Source = Workspace_UUID,",
+          "     _workspace = Text.Trim(workspace),",
+          "    _environment = Text.Trim(environment),",
+          "    Filtered_Rows = Table.SelectRows(Source, each ( ([Environment]=environment) and ([Workspace] = workspace))),",
+          "    SingleRow = if Table.RowCount(Filtered_Rows) = 1 then Filtered_Rows else null",
+          "in",
+          "    SingleRow{0}[UUID]"
+        ],
+        "kind": "m",
+        "lineageTag": "60d54da9-cd62-49d8-9b84-5649f8c90f2d"
+      },
+      {
+        "name": "getDataflowUUID",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "(dataflow as text) as text =>",
+          "let",
+          "    Source = Dataflow_UUID,",
+          "     _workspace = Text.Trim(workspace),",
+          "    _environment = Text.Trim(environment),",
+          "    _dataflow=Text.Trim(dataflow),",
+          "    Filtered_Rows = Table.SelectRows(Source, each ( ([Environment] = environment) and ([Workspace] = workspace) and ([Dataflow] = dataflow))),",
+          "    SingleRow = if Table.RowCount(Filtered_Rows) = 1 then Filtered_Rows else null",
+          "in",
+          "    Text.From(SingleRow{0}[UUID])"
+        ],
+        "kind": "m",
+        "lineageTag": "8f2c51f4-24a6-4179-a694-e816b37414d6"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "8ca2df3b-2c97-476f-a8d0-7207da359104",
+        "fromColumn": "site_id",
+        "fromTable": "organization",
+        "toColumn": "id",
+        "toTable": "site"
+      },
+      {
+        "name": "293736c1-0bd3-4a59-966a-e05ffe671a12",
+        "fromColumn": "organization_id",
+        "fromTable": "schedule_group",
+        "toColumn": "id",
+        "toTable": "organization"
+      },
+      {
+        "name": "94b39377-932b-4a0b-a581-5fd2fe2d3ca8",
+        "fromColumn": "schedule_group_id",
+        "fromTable": "schedule",
+        "toColumn": "id",
+        "toTable": "schedule_group"
+      },
+      {
+        "name": "101c4ee9-fdbd-4c94-8935-b454b9ce8a28",
+        "fromColumn": "date_created",
+        "fromTable": "schedule",
+        "toColumn": "Date",
+        "toTable": "Calendar"
+      },
+      {
+        "name": "dcddcb27-7b1a-4d38-89a8-01eaaed238ef",
+        "fromColumn": "state",
+        "fromTable": "schedule",
+        "toColumn": "State_Code",
+        "toTable": "ScheduleStates"
+      },
+      {
+        "name": "cbf84dee-7ed8-47ff-8676-14ecceed17c8",
+        "fromColumn": "id",
+        "fromTable": "schedule",
+        "toColumn": "schedule_id",
+        "toTable": "schedule_kpi"
+      },
+      {
+        "name": "95259ca6-11e3-47e0-b150-82c7f40f3b01",
+        "fromColumn": "health_status_code",
+        "fromTable": "schedule",
+        "toColumn": "Code",
+        "toTable": "Health Status"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Calendar",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isKey": true,
+            "lineageTag": "03ade778-85e2-4bfc-9d21-99e8fff00118",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ca7ad717-bfe8-4944-9b6d-fc592fa6ecea",
+            "sourceColumn": "Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "236f7a99-3eb4-494a-ab32-fc4c9d6d2eb7",
+            "sourceColumn": "Quarter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "70fbd5ee-008f-4243-934e-5a5c36de5894",
+            "sortByColumn": "Month",
+            "sourceColumn": "Month Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a4cfe925-fae0-44ad-92eb-e980a3a2f5b5",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Week of Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ebaa324c-036e-4beb-9f33-f00ce4a6b187",
+            "sourceColumn": "Week of Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": [
+              "",
+              "DATE(",
+              "    'Calendar'[Year],",
+              "    'Calendar'[Month],",
+              "    1",
+              ")"
+            ],
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "lineageTag": "051a737d-24f3-400c-9e03-de1f17ee127e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Week",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "WEEKNUM([Date], 1)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "e4992cd1-bdfc-4b0d-a772-e5a9ec789580",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Week_ISO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "WEEKNUM([Date], 21)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "88cec5b2-9eeb-4415-8d04-51851f6373c8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Year_ISO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "IF (",
+              "    WEEKNUM ( [Date], 21 ) < 5",
+              "        && WEEKNUM ( [Date] ) > 50,",
+              "    YEAR ( [Date] ) + 1,",
+              "    IF (",
+              "        WEEKNUM ( [Date], 21 ) > 50",
+              "            && WEEKNUM ( [Date] ) < 5,",
+              "        YEAR ( [Date] ) - 1,",
+              "        YEAR ( [Date] )",
+              "    )",
+              ")",
+              ""
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "fe3b19e7-e89f-41eb-97df-2cd1e3b4476c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month_445_ISO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "SWITCH(TRUE(),",
+              "'Calendar'[Week_ISO] >= 1 && 'Calendar'[Week_ISO] <= 4,1,",
+              "'Calendar'[Week_ISO] >= 5 && 'Calendar'[Week_ISO] <= 8,2,",
+              "'Calendar'[Week_ISO] >= 9 && 'Calendar'[Week_ISO] <= 13,3,",
+              "'Calendar'[Week_ISO] >= 14 && 'Calendar'[Week_ISO] <= 17,4,",
+              "'Calendar'[Week_ISO] >= 18 && 'Calendar'[Week_ISO] <= 21,5,",
+              "'Calendar'[Week_ISO] >= 22 && 'Calendar'[Week_ISO] <= 26,6,",
+              "'Calendar'[Week_ISO] >= 27 && 'Calendar'[Week_ISO] <= 30,7,",
+              "'Calendar'[Week_ISO] >= 31 && 'Calendar'[Week_ISO] <= 34,8,",
+              "'Calendar'[Week_ISO] >= 35 && 'Calendar'[Week_ISO] <= 39,9,",
+              "'Calendar'[Week_ISO] >= 40 && 'Calendar'[Week_ISO] <= 44,10,",
+              "'Calendar'[Week_ISO] >= 45 && 'Calendar'[Week_ISO] <= 48,11,",
+              "'Calendar'[Week_ISO] >= 49 && 'Calendar'[Week_ISO] <= 53,12,13)"
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "45d6868b-bbc2-4f42-8b52-f20e1b638cba",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c",
+                "value": "True"
+              }
+            ],
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "lineageTag": "5f45af3a-4c96-405f-a552-a912009b021e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthDiff",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "'Calendar'[Month] - 'Calendar'[Month_445_ISO]",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "3bbb9c84-b1e7-4cd2-93eb-498384951ed9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Max_ISO_Weeks",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "CALCULATE(MAX('Calendar'[Week_ISO]),",
+              "REMOVEFILTERS('Calendar'[Date],'Calendar'[MonthDiff],'Calendar'[Month_445_ISO],'Calendar'[Week_ISO])",
+              ")"
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "6001592d-d3c6-4037-9239-3bf2d36f2a0d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "DOW",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "WEEKDAY('Calendar'[Date],2)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "46cfa010-f01c-404e-a00e-90f130d80b68",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Is Working Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "expression": [
+              "",
+              "IF(",
+              "    WEEKDAY('Calendar'[Date],2) < 6,",
+              "    TRUE(),",
+              "    FALSE()",
+              ")"
+            ],
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "lineageTag": "cc6a0f41-8cef-4648-98bb-ffe9e8975197",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "dataCategory": "Time",
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "2ba54752-90a1-42b6-9d7f-934be88404ac",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "c07ab2e6-8883-4b4e-bee7-7ed5f5138c93",
+                "ordinal": 1
+              },
+              {
+                "name": "Month Name",
+                "column": "Month Name",
+                "lineageTag": "0daf61de-55f9-47b1-92bb-96382755ceb4",
+                "ordinal": 2
+              },
+              {
+                "name": "Week of Month",
+                "column": "Week of Month",
+                "lineageTag": "3ba48c6a-4567-4d0d-a3f1-8a0f12cdcc28",
+                "ordinal": 3
+              },
+              {
+                "name": "Date",
+                "column": "Date",
+                "lineageTag": "52bfd0ec-c257-4ef6-82aa-2ab3d1eacc57",
+                "ordinal": 4
+              }
+            ],
+            "lineageTag": "bc9d5646-8c7b-43c7-8628-2dd7a66d5e8d"
+          }
+        ],
+        "lineageTag": "6d3a93a7-7bbf-408f-b5dc-ab232c0853b3",
+        "measures": [
+          {
+            "name": "DateFilter",
+            "expression": "COMBINEVALUES(\" - \", MIN('Calendar'[Date]), MAX('Calendar'[Date]), COUNTROWS('Calendar'))",
+            "lineageTag": "2973391e-9028-45a3-b0a8-ed85d086019d"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Calendar-c2f4c3f7-c61e-402b-b972-d15cd918f943",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = #date(2021, 1, 1),",
+                "    Custom1 = List.Dates(Source, 1461,#duration(1,0,0,0)),",
+                "    #\"Converted to Table\" = Table.FromList(Custom1, Splitter.SplitByNothing(), null, null, ExtraValues.Error),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Converted to Table\",{{\"Column1\", type date}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"Column1\", \"Date\"}}),",
+                "    #\"Inserted Year\" = Table.AddColumn(#\"Renamed Columns\", \"Year\", each Date.Year([Date]), Int64.Type),",
+                "    #\"Inserted Quarter\" = Table.AddColumn(#\"Inserted Year\", \"Quarter\", each Date.QuarterOfYear([Date]), Int64.Type),",
+                "    #\"Inserted Month Name\" = Table.AddColumn(#\"Inserted Quarter\", \"Month Name\", each Date.MonthName([Date]), type text),",
+                "    #\"Inserted Month\" = Table.AddColumn(#\"Inserted Month Name\", \"Month\", each Date.Month([Date]), Int64.Type),",
+                "    #\"Inserted Week of Month\" = Table.AddColumn(#\"Inserted Month\", \"Week of Month\", each Date.WeekOfMonth([Date]), Int64.Type),",
+                "    #\"Sorted Rows\" = Table.Sort(#\"Inserted Week of Month\",{{\"Date\", Order.Descending}})",
+                "in",
+                "    #\"Sorted Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "organization",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb408750-084a-4802-92b7-709bf458c936",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "site_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "06552aef-9916-4e0d-a047-4a6bc084a2d2",
+            "sourceColumn": "site_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organization_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "01223625-b972-4859-9964-dc272af96ef7",
+            "sourceColumn": "organization_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nice_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "073bf2d9-89db-4fc9-9ce9-c2e2d2c16b59",
+            "sourceColumn": "nice_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d3c54a53-4328-434a-b71b-570ae7944e43",
+            "sourceColumn": "status",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "47483d11-a9a1-4196-9b64-bdbce881673e",
+        "partitions": [
+          {
+            "name": "organization-0e38adf7-ab72-41e4-b937-6e45b755efc7",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"56933f6c-703b-41b3-8ac4-de2165a8ad23\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Resource_DF\")]}[Data],",
+                "    organization_ = #\"56933f6c-703b-41b3-8ac4-de2165a8ad23\"{[entity=\"organization\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(organization_, 0, Table.RowCount(organization_)) else organization_",
+                "in",
+                "    RemovedRows"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "site",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2e18df41-543d-46f4-b72e-37a96e90ba9a",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenant_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f8f869a8-0148-4e74-bbb1-b0c3ab588bc2",
+            "sourceColumn": "tenant_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "site_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0a960afc-4553-493f-a4d4-c747267b12cd",
+            "sourceColumn": "site_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Site Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "72730d7f-7bf6-4460-aa5f-68ceaeffc049",
+            "sourceColumn": "Site Name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0e092948-bf81-4788-b794-a732f1473038",
+        "partitions": [
+          {
+            "name": "site-d4fd54bf-0b50-4982-a360-438991732545",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"56933f6c-703b-41b3-8ac4-de2165a8ad23\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Resource_DF\")]}[Data],",
+                "    site_ = #\"56933f6c-703b-41b3-8ac4-de2165a8ad23\"{[entity=\"site\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(site_, 0, Table.RowCount(site_)) else site_,",
+                "    #\"Renamed Columns\" = Table.RenameColumns(RemovedRows,{{\"nice_name\", \"Site Name\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "schedule",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8235a92-09dd-460f-b342-1b1eba182462",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "name_text",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bcf5244e-fba2-4d9d-a0e6-e31141068d7b",
+            "sourceColumn": "name_text",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7ade3619-5fe8-4267-96f4-618881527ef1",
+            "sourceColumn": "description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_scheduled_start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "532709c8-0778-4bee-9cb1-8cc216f0887c",
+            "sourceColumn": "date_scheduled_start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_scheduled_complete",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "2f083b8b-a6ad-49d0-8865-52739c813169",
+            "sourceColumn": "date_scheduled_complete",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cd1edcee-afe6-4263-91d5-3835882de3a9",
+            "sourceColumn": "status",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "date_created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "553ca1ec-86ea-4185-aca2-3171abf34a4f",
+            "sourceColumn": "date_created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "parent_task_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f1258e9-87b4-4640-82b1-43c0abcff50a",
+            "sourceColumn": "parent_task_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "currency_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c086d5df-a2cd-45e4-936b-91b5e23bd6aa",
+            "sourceColumn": "currency_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "entity_reference_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "50388a92-0719-41e9-b76e-97e6184f1ff8",
+            "sourceColumn": "entity_reference_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a730b0c4-3ca2-4e97-8d89-320bd7b076a2",
+            "sourceColumn": "customer_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_display_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0effbfa0-1121-4590-86bb-82edae533d16",
+            "sourceColumn": "customer_display_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_schedule_confirmed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "c884248b-e8bd-41f3-b9b2-cd12ee7b6bf5",
+            "sourceColumn": "date_schedule_confirmed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_schedule_canceled",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "1f818ae9-d91e-45fc-b298-f94d2eb2f400",
+            "sourceColumn": "date_schedule_canceled",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fff6ac03-1678-4b11-8f76-48e34ead411a",
+            "sourceColumn": "customer_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_actual_complete",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "d08e1bd9-c554-4c38-89c6-4e7a6badb207",
+            "sourceColumn": "date_actual_complete",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "amount_revenue",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d50a9f2f-f15d-418d-be48-1e12ea299381",
+            "sourceColumn": "amount_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "is_schedule_tentative",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "0715dc5e-c35b-4eea-9b99-39faa9f9daa8",
+            "sourceColumn": "is_schedule_tentative",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "override_standard_working_time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "280ca4c5-075e-460a-a1fe-cea17fd2a12a",
+            "sourceColumn": "override_standard_working_time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "schedule_group_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f7494472-d342-4972-becf-ccdf08e31717",
+            "sourceColumn": "schedule_group_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_actual_ready",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "eeb5b83e-8110-4d2f-ac6f-161d8ab24e56",
+            "sourceColumn": "date_actual_ready",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "shift_rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "5f2dab32-c44e-481a-872b-2e396bea8d45",
+            "sourceColumn": "shift_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "date_client_ready",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "ed505fbf-517e-4863-a3ad-7e5d3b0c1767",
+            "sourceColumn": "date_client_ready",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "project_scope",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "84299ca2-9ee8-45d8-a456-0073e380e910",
+            "sourceColumn": "project_scope",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "request_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3f44650-ac6c-4c20-80e0-ea8befca648d",
+            "sourceColumn": "request_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "request_reference_number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "659eb791-54fd-4f98-8c95-0597b47c88cc",
+            "sourceColumn": "request_reference_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_deliverables_due",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "0a812db6-d61a-43e2-b063-7178cf4e6e87",
+            "sourceColumn": "date_deliverables_due",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_estimated_hours",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e0878dcd-5b76-4767-8e83-aca8fb1fe4ba",
+            "sourceColumn": "total_estimated_hours",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "reservation_comments",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb934802-74bd-42f3-a331-024f5f4533cf",
+            "sourceColumn": "reservation_comments",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "schedule_resource_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "525309de-32d5-4d2c-8089-ca040bf86597",
+            "sourceColumn": "schedule_resource_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "estimated_by_resource_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b31b40dd-82cc-43aa-b2f5-7971291ef4f1",
+            "sourceColumn": "estimated_by_resource_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "requires_deliverable_to_complete",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "3612ba42-0f45-47b2-97cd-23324260d4fd",
+            "sourceColumn": "requires_deliverable_to_complete",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_scheduled_tasks",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b2f2cfa3-f1e1-4131-a5c4-40e931c94e1a",
+            "sourceColumn": "total_scheduled_tasks",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "date_release_activities",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "46a19914-573d-45ab-a16d-e288b48b4707",
+            "sourceColumn": "date_release_activities",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "state",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f776ac91-7c4f-4d10-b1ce-9cef8577c4cd",
+            "sourceColumn": "state",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "project_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ad3a266-4630-4960-a4e4-a06986c7fa10",
+            "sourceColumn": "project_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "in_trash",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "2dd61d48-f646-4539-b232-cc75c37e4cc7",
+            "sourceColumn": "in_trash",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "models",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "870ff903-86f1-48ea-83bf-ae0152529b2f",
+            "sourceColumn": "models",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_hold_days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "20e95b8e-8aeb-456b-927a-0eec4df87ad8",
+            "sourceColumn": "total_hold_days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "deliverable_customer_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "36beb643-ce32-4603-9fbc-0fb0a1925c44",
+            "sourceColumn": "deliverable_customer_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "deliverable_customer_display_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "42f8914c-f9e0-4013-a647-2de96dfbf9b0",
+            "sourceColumn": "deliverable_customer_display_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "deliverable_customer_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ff06cba-9ebd-4aa5-bfa4-ffebe91217f5",
+            "sourceColumn": "deliverable_customer_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Is Healthy",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "expression": [
+              "",
+              "VAR tentitiveHealthy =",
+              "    IF (",
+              "        schedule[date_client_ready] < schedule[date_scheduled_start]",
+              "            && ISBLANK ( schedule[date_actual_ready] ),",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR inprocessHealthy =",
+              "    IF (",
+              "        RELATED ( schedule_kpi[date_actual_start] ) <= schedule[date_scheduled_start]",
+              "            && schedule[date_scheduled_complete] < TODAY (),",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR confirmedHealthy =",
+              "    IF (",
+              "        ISBLANK ( schedule[date_actual_ready] ) = FALSE ()",
+              "            && schedule[date_actual_ready] <= schedule[date_scheduled_start]",
+              "            && schedule[date_scheduled_start] > TODAY(),",
+              "        TRUE,",
+              "        FALSE ()",
+              "    )",
+              "VAR isHealthy =",
+              "    SWITCH (",
+              "        schedule[state],",
+              "        \"schedule.state.tentative\", tentitiveHealthy,",
+              "        \"schedule.state.confirmed\", confirmedHealthy,",
+              "        \"schedule.state.inprocess\", inprocessHealthy,",
+              "        FALSE ()",
+              "    )",
+              "RETURN",
+              "    isHealthy",
+              ""
+            ],
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "lineageTag": "5b2c2a31-93c3-44f4-9a20-cd064b7b9fe6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "DateBefore",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "expression": "schedule[date_actual_ready] < schedule[date_scheduled_start]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "lineageTag": "924d1f47-adbc-4504-9e7c-84563381f123",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "health_status_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "VAR isRunningOverSchedule =",
+              "    IF (",
+              "        schedule[state] = \"schedule.state.inprocess\"",
+              "            && schedule[date_scheduled_complete] < UTCTODAY (),",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR isTentitiveOrConfirmed =",
+              "    IF (",
+              "        schedule[state] = \"schedule.state.tentative\"",
+              "            || schedule[state] = \"schedule.state.confirmed\",",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR isWaitingOnLab =",
+              "    IF (",
+              "        isTentitiveOrConfirmed",
+              "            && ISBLANK ( RELATED ( schedule_kpi[date_actual_start] ) )",
+              "            && schedule[date_scheduled_start] < UTCTODAY ()",
+              "            && ISBLANK ( schedule[date_actual_ready] ) = FALSE (),",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR isBlankActualStart =",
+              "    ISBLANK ( RELATED ( schedule_kpi[date_actual_start] ) )",
+              "VAR isWaitingOnClient =",
+              "    IF (",
+              "        isTentitiveOrConfirmed && isBlankActualStart",
+              "            && schedule[date_scheduled_start] < UTCTODAY ()",
+              "            && ISBLANK ( schedule[date_actual_ready] ),",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR isStartedWaitingOnClient =",
+              "    IF (",
+              "        isTentitiveOrConfirmed",
+              "            && ( isBlankActualStart == FALSE () )",
+              "            && schedule[date_scheduled_start] < UTCTODAY ()",
+              "            && ISBLANK ( schedule[date_actual_ready] ),",
+              "        TRUE (),",
+              "        FALSE ()",
+              "    )",
+              "VAR result =",
+              "    IF (",
+              "        isRunningOverSchedule,",
+              "        \"running.over\",",
+              "        IF (",
+              "            isWaitingOnLab,",
+              "            \"waiting.lab\",",
+              "            IF (",
+              "                isWaitingOnClient,",
+              "                \"waiting.client\",",
+              "                IF ( isStartedWaitingOnClient, \"started.waiting.client\", \"unknown\" )",
+              "            )",
+              "        )",
+              "    )",
+              "RETURN",
+              "    result",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "0bd8173b-f680-403c-ab14-a566a353acbe",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "ActualStartBeforeScheduledStart",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "expression": "RELATED(schedule_kpi[date_actual_start]) <= schedule[date_scheduled_start]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "lineageTag": "fc8da2e2-024f-4aec-9f74-3982ca8923c9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "equipment_under_test",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "47086946-9485-44b0-bbb8-8658cf007744",
+            "sourceColumn": "equipment_under_test",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "test_plan_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f9edd70-f1e6-409d-802c-9c205a50a84d",
+            "sourceColumn": "test_plan_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "schedule_health",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "72d34c0a-201f-4513-9d84-276abfe55319",
+            "sourceColumn": "schedule_health",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenant_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e035743a-c914-4064-be7d-829a33b3d268",
+            "sourceColumn": "tenant_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ca0ade2d-ff39-4dfc-831d-35c315a072ba",
+        "measures": [
+          {
+            "name": "Total Schedules",
+            "expression": "COUNTROWS(schedule)",
+            "formatString": "0",
+            "lineageTag": "47f0fd51-ca06-4960-a8b1-cb4d4b7aeb53"
+          },
+          {
+            "name": "Total Healthy Schedules",
+            "expression": [
+              "",
+              "VAR total = CALCULATE([Total Schedules], schedule[Is Healthy] = TRUE())",
+              "",
+              "RETURN",
+              "    IF(ISBLANK(total), 0, total)"
+            ],
+            "formatString": "0",
+            "lineageTag": "64087ea4-665e-4224-9378-802eca5bc815"
+          },
+          {
+            "name": "Total Unhealthy Schedules",
+            "expression": [
+              "",
+              "VAR total = CALCULATE([Total Schedules], schedule[Is Healthy] = FALSE())",
+              "",
+              "RETURN",
+              "    IF(ISBLANK(total), 0, total)"
+            ],
+            "formatString": "0",
+            "lineageTag": "e2967e87-c6fb-420f-ba81-754f9713c212"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "schedule-ebde9403-616b-4fe0-9ffe-6fda9b522e02",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Schedule_DF\")]}[Data],",
+                "    schedule_ = #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\"{[entity=\"schedule\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(schedule_, 0, Table.RowCount(schedule_)) else schedule_,",
+                "    ChangedType = Table.TransformColumnTypes(RemovedRows,{{\"date_created\", type date}}),",
+                "    RemoveInTrash = Table.SelectRows(ChangedType, each ([in_trash] = 0)),",
+                "    RemoveStatusesNotInterestedIn = Table.SelectRows(RemoveInTrash, each [state] = \"schedule.state.tentative\" or [state] = \"schedule.state.confirmed\" or [state] = \"schedule.state.inprocess\"),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(RemoveStatusesNotInterestedIn,{{\"date_scheduled_complete\", type date}, {\"date_scheduled_start\", type date}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"date_last_updated\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Removed Columns\",{{\"date_schedule_confirmed\", type date}, {\"date_schedule_canceled\", type date}, {\"date_actual_complete\", type date}, {\"date_actual_ready\", type date}, {\"date_client_ready\", type date}, {\"date_deliverables_due\", type date}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "schedule_group",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "adfeae5b-7943-4d24-9a97-b074519877ea",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "name_value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aad27bd7-4e8e-4299-95bb-2fa14c41534c",
+            "sourceColumn": "name_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7cd247cb-147e-4d9a-b20f-0e217a9485d3",
+            "sourceColumn": "description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "business_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "32bebda7-bda6-4304-865b-721f597c525d",
+            "sourceColumn": "business_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2de5bc48-7c9b-4728-b07d-41f339badbf8",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organization_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5bde0b7-4340-4225-9aba-c833d91a9f1a",
+            "sourceColumn": "organization_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "2a0893de-2366-4498-87c8-5f3ad3903766",
+            "sourceColumn": "date_created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenant_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5a6b544-6dd9-44bf-9199-a88a95468eb9",
+            "sourceColumn": "tenant_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2fa690bf-603d-4be8-9d5a-363fe6a21b41",
+        "partitions": [
+          {
+            "name": "schedule_group-07ac4ea6-588c-4475-b453-41d294009cbf",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Schedule_DF\")]}[Data],",
+                "    schedule_group_ = #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\"{[entity=\"schedule_group\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(schedule_group_, 0, Table.RowCount(schedule_group_)) else schedule_group_,",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(RemovedRows,{{\"date_created\", type date}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"date_last_updated\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ScheduleDFLastUpdate",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Updated Time in UTC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "0a43e90f-727e-4101-a2f2-611665693321",
+            "sourceColumn": "Updated Time in UTC",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "babb0782-6ab1-4d47-be19-7527c8093fb2",
+        "partitions": [
+          {
+            "name": "ScheduleDFLastUpdate-09ba7d7e-3a2b-4187-bd55-196a12d3d887",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Schedule_DF\")]}[Data],",
+                "    ScheduleDFLastUpdate_ = #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\"{[entity=\"ScheduleDFLastUpdate\",version=\"\"]}[Data]",
+                "in",
+                "    ScheduleDFLastUpdate_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ScheduleStates",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "86f2508a-3048-48b9-80d0-bde8dc55d997",
+            "sourceColumn": "State_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94190e8e-48d6-4edb-8cf9-fa54984e02e5",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "3f8544ef-f550-44a8-ac0e-c694c1d11627",
+        "partitions": [
+          {
+            "name": "ScheduleStates-b4d208f1-6141-4e24-8817-af18f9e66f23",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"c82c4fa7-fe92-4805-9a5d-097358cafb49\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Static_States_DF\")]}[Data],",
+                "    ScheduleStates_ = #\"c82c4fa7-fe92-4805-9a5d-097358cafb49\"{[entity=\"ScheduleStates\",version=\"\"]}[Data],",
+                "    #\"Renamed Columns\" = Table.RenameColumns(ScheduleStates_,{{\"Name\", \"State\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "schedule_kpi",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52821eff-5cda-480c-b0ef-353781f2390d",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "schedule_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ea93368-f63c-40b6-a593-b84e5caad569",
+            "sourceColumn": "schedule_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "task_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7977736f-7911-48ea-ad25-695455f0c69b",
+            "sourceColumn": "task_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_actual_start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "114af8a8-c460-498e-8e3e-2fb289ed2053",
+            "sourceColumn": "date_actual_start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "8c2d4c91-eb3e-48cb-8b88-9601cdfde643",
+            "sourceColumn": "date_created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenant_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6b1b8881-035f-41ac-96ef-67bc5fcca73b",
+            "sourceColumn": "tenant_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2ed57079-a4b9-4783-81fc-36c358f8c1f8",
+        "partitions": [
+          {
+            "name": "schedule_kpi-d4e57412-d420-4ed7-9865-f54e54947f63",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"a1f79207-1559-49f0-bb03-4326733115c7\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\" = #\"a1f79207-1559-49f0-bb03-4326733115c7\"{[dataflowId=getDataflowUUID(\"Schedule_DF\")]}[Data],",
+                "    schedule_kpi_ = #\"df1cbfc6-c405-46ec-8d6d-24332cc42b8d\"{[entity=\"schedule_kpi\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(schedule_kpi_, 0, Table.RowCount(schedule_kpi_)) else schedule_kpi_,",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(RemovedRows,{{\"date_actual_start\", type date}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type\",",
+                "    each [date_actual_start],",
+                "    (r)=> if r[date_actual_start] > #date(2029, 1, 1) then null as date else r[date_actual_start] as date,",
+                "    Replacer.ReplaceValue,{\"date_actual_start\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Replaced Value\",{{\"date_actual_start\", type date}, {\"date_created\", type date}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type1\",{\"date_last_updated\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Health Status",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1e209161-5bb9-4b4c-8ef1-31094f7b98b4",
+            "sourceColumn": "Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "557a18dc-a97b-4134-aa53-39398f83d834",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d7efbee8-930d-4a81-bb7a-31bd1cd48f68",
+        "partitions": [
+          {
+            "name": "Health Status-606cbd69-7c8a-4d74-9fb6-2b8e0f8445f5",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"ZYwxDsIwDEWvYnluewlWJCQixBBlSFsXIiJbCg69PmlThojtP/v9by2mzBz4MciHEnZ4rQiXgmCmJ805ErrO4uqDbmL0Y/HulUAYzn4EFTDqkzbmFAOxtvJpv7X+e0s0D389Ux/Qw29hkXRM7M3ML5aVi3o7knNf\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Code = _t, Status = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Code\", type text}, {\"Status\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Report_Version",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Version",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "245bbb32-7ea9-4e26-aedf-3cc1009e23be",
+            "sourceColumn": "Version",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "5f1113ee-61ea-4b94-b8eb-9e7f5574ecd0",
+        "partitions": [
+          {
+            "name": "Report_Version",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = #\"version\",",
+                "    #\"Converted to Table\" = #table(1, {{Source}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Converted to Table\",{{\"Column1\", \"Version\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ResourceDFLastUpdated",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Updated Time in UTC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "efbfe00c-25c6-4a7f-83db-4ec136b23fac",
+            "sourceColumn": "Updated Time in UTC",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0cc3ac18-5c38-4344-aa48-e995d0328d2e",
+        "partitions": [
+          {
+            "name": "ResourceDFLastUpdated",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"03484637-7ed3-413b-9214-d3eff5b4b697\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Resource_DF\")]}[Data],",
+                "    ResourceDFLastUpdated_ = #\"03484637-7ed3-413b-9214-d3eff5b4b697\"{[entity=\"ResourceDFLastUpdated\",version=\"\"]}[Data]",
+                "in",
+                "    ResourceDFLastUpdated_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Resource_DF_DBName",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DBName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "92d4573f-fc0c-4a6a-8ff0-80bf78310583",
+            "sourceColumn": "DBName",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a799a945-1958-48ab-838a-9a2ff02501f9",
+        "partitions": [
+          {
+            "name": "Resource_DF_DBName",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"03484637-7ed3-413b-9214-d3eff5b4b697\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Resource_DF\")]}[Data],",
+                "    Resource_DF_DBName_ = #\"03484637-7ed3-413b-9214-d3eff5b4b697\"{[entity=\"Resource_DF_DBName\",version=\"\"]}[Data]",
+                "in",
+                "    Resource_DF_DBName_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Resource_DF_Version",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Version",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "436f04af-3867-4822-ae75-d7f6e8e01fd1",
+            "sourceColumn": "Version",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1f3ec901-b8be-492c-a72f-e2fa25bd7859",
+        "partitions": [
+          {
+            "name": "Resource_DF_Version",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"03484637-7ed3-413b-9214-d3eff5b4b697\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Resource_DF\")]}[Data],",
+                "    Resource_DF_Version_ = #\"03484637-7ed3-413b-9214-d3eff5b4b697\"{[entity=\"Resource_DF_Version\",version=\"\"]}[Data]",
+                "in",
+                "    Resource_DF_Version_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Schedule DF DBName",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DBName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ce16811a-4795-47e4-bc7f-aa542c53f1b4",
+            "sourceColumn": "DBName",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6c1a7a93-1e16-468b-83c5-62fd7716bffb",
+        "partitions": [
+          {
+            "name": "Schedule DF DBName",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"50114452-e6b2-4ca0-b77a-270051113ddd\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Schedule_DF\")]}[Data],",
+                "    #\"Schedule DF DBName_\" = #\"50114452-e6b2-4ca0-b77a-270051113ddd\"{[entity=\"Schedule DF DBName\",version=\"\"]}[Data]",
+                "in",
+                "    #\"Schedule DF DBName_\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Schedule DF Version",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Version",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a1ea39f7-f5bc-4439-82bd-25c4e64f3b41",
+            "sourceColumn": "Version",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "fcfd95bb-d52d-48e8-80e9-bd32b4a6db63",
+        "partitions": [
+          {
+            "name": "Schedule DF Version",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"50114452-e6b2-4ca0-b77a-270051113ddd\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Schedule_DF\")]}[Data],",
+                "    #\"Schedule DF Version_\" = #\"50114452-e6b2-4ca0-b77a-270051113ddd\"{[entity=\"Schedule DF Version\",version=\"\"]}[Data]",
+                "in",
+                "    #\"Schedule DF Version_\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Static_States_DF_Version",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Version",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ef17c4e2-7073-47ab-a2b6-2c91b7460180",
+            "sourceColumn": "Version",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7e17e8de-c58d-45e2-a0be-7a18b9c12c0e",
+        "partitions": [
+          {
+            "name": "Static_States_DF_Version",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"fb0542f7-8074-4ad8-a0a7-50610cb26cfa\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Static_States_DF\")]}[Data],",
+                "    Static_States_DF_Version_ = #\"fb0542f7-8074-4ad8-a0a7-50610cb26cfa\"{[entity=\"Static_States_DF_Version\",version=\"\"]}[Data]",
+                "in",
+                "    Static_States_DF_Version_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "StaticStatesDFLastUpdated",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Updated Time in UTC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "3217551d-5118-4e0a-96eb-e644da99328d",
+            "sourceColumn": "Updated Time in UTC",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "fc14914a-27a6-4a2d-812f-347939aaec66",
+        "partitions": [
+          {
+            "name": "StaticStatesDFLastUpdated",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=getWorkspaceUUID()]}[Data],",
+                "    #\"fb0542f7-8074-4ad8-a0a7-50610cb26cfa\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=getDataflowUUID(\"Static_States_DF\")]}[Data],",
+                "    StaticStatesDFLastUpdated_ = #\"fb0542f7-8074-4ad8-a0a7-50610cb26cfa\"{[entity=\"StaticStatesDFLastUpdated\",version=\"\"]}[Data]",
+                "in",
+                "    StaticStatesDFLastUpdated_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Workspace_UUID",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Environment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9252e7e5-d1df-4ac4-b58a-7ef3ef8dc029",
+            "sourceColumn": "Environment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Workspace",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f16d7d2d-2055-45cd-823c-485f652a34d4",
+            "sourceColumn": "Workspace",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UUID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f4855238-a84a-4bcc-b095-78a608d71b7f",
+            "sourceColumn": "UUID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d29e2d8b-3641-4e5b-9299-50c561e75b7b",
+        "partitions": [
+          {
+            "name": "Workspace_UUID",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"nZFNSwNBDIb/yrInhQbmeybHBRfxIKgtXqSHyUxGFttt2U6hP9+pR9FLD4EkhOd9k3x89Gvex83C3K/6zXKufKqxex1axYVRlqAh5KDAKOcgUJQgdPImEwapTb9d/U1YxznT4dJaJoqiTYlAMWswLANgRIYkMmaLpLTK/2JelkM+pzod5taNsnhUwoO0FsFgEUAkGlMr57WW0ib/mzRejrxMe55r3F0RPobmxULkksBIxIbIBFaRiKUEmVL5QTzNlZfKX1cz4/DcjTtOdZlS3HXD8bhrydXUqXvj42Gp0/zZ3T2M7/dtPIgkVTAMLQIYQgfRWQYkj+1oubAXt0qsN8PjeBVJlrC0L4BQlKFthIBOJXBBCRk4SSZ1m0gbJCZtrDHALhGYyO1IKBq8pOx0Tl462W+33w==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Environment = _t, Workspace = _t, UUID = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Environment\", type text}, {\"Workspace\", type text}, {\"UUID\", type text}})",
+                "in",
+                "  #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dataflow_UUID",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Environment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d12107c4-a7c9-43e7-878f-111b22897502",
+            "sourceColumn": "Environment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Workspace",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fe8f8e6f-ad18-4490-80f8-04ae16ec1c2b",
+            "sourceColumn": "Workspace",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Dataflow",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ba59f3ef-c8fd-487e-a267-3961fc1881a4",
+            "sourceColumn": "Dataflow",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UUID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "817fef31-5d62-475e-a9b8-b1d701de756e",
+            "sourceColumn": "UUID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "df7ba787-a42f-436e-864d-bc0e33f3abc6",
+        "partitions": [
+          {
+            "name": "Dataflow_UUID",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"rVpbb1y3Ef4rRp5aoAR4Gd4eg8a9PBRoY7d9CIJghpxJ1ciSK8u9/fp+lJVYZ3e12u7GL7INaIYcznwX8nzzzRdv9B2/vVP94ldfvL37eK8f7vnVn77Ev36td/dXdjX4Xr/7Wv95pf/67qvf4P8bh1B6qK7lKY58UNdFq/NdSq6l+JH6F9/+6ljk23fvb2/05t49BjSPX56uTPWO4vCOe27Ok05jsR6CvBDw492d3oz/fFqg8PR9JHEpjelIc3IyanaqIzPN0Gq1l+J9uL99p3ef4hXLvrdOrhlFrC8G10fxroU5zKq0xOl4vK/0+uqfesdyrR8e1zi5cYnmairqqM/i2LK5EetoIZUU9YU1vv7Hx6v371DEx4DBRissbsxcHGGVrs+a3CwlaIptTtLjAX9/8+G9jvur25vHNTIJCYrmMheEnDZQAe6OdYxZUvJxvHAuf7y7/TtCPvaNlYCzNEdVM46lIhIq6kZIvoqfSPLCCv/08fahF//xEf/3KeikPEtI3Q0OwxHn6dqI2XlJNFPBeuM8HvRr/XD78W7op3g+UaOSqqs6k6OALuoxkJtJzTLqUXo9Md6f76+ur/7Lq6CfYtfIZabKLgRiR0XUNSzTJRtDUqlxKh+P/Ybfvb/W797e8fjhx+7sKdXKiiU2RdSc1XE0nH7wWD7HjCK/EHX8TefH68cKZI/lUY5Oi6DbB3snSOBi9T6HENKcL1T0zT3fTL6bP7Z6mpFWhNQ8SpqquEaU8M9ZGBNPVl7a9j2qOL5bP36cHxOfKRpAyFfCuc/m2HN12Zfgh8Qy7IWgf729++Hq5vvf4bAeY1Z0TsAZOawXvRRzdwtKsFBqwkwWsz8e863e8I8DmXjMnuZwwSZ6HiFwLrmiAM1rYi6ex7PR3qCCcvvvIyisZcQS0T0MqHBkFcckIbuQpflZG0WlU8JvobhX6ZkARhYVZ+VnBopIchomV9UGGHm+BE+ibvDYoqTUmFzNAnyvzbBoMzdHsNwKWl+ex5GnQZ+Ccqi1oBXRVclkDVNxrVtxFX8zgL8HzJ8Q9AAyp5g4Y0C5AusIIAegb0B7MfJ9+jb8KYXdgWdLI5QZMfvNEDUpcMqEnSlabvSKVsknRN3DaKGIs64NFUC7UgfsSwEcRik6SlfLJ3XZBqgtjBajgYBBzAjcE5oAFaidPECh1uZPaYIDaO3JV0MZHc8CCsAaXa/dnKYExuJRrT0vHT5H3oHs0I1DH45RVpQ2MShgCErLSdkMZFr+n6B7uB1Z2kQSDAXAlUIJTqYFYI3E6Wv3rcQTEhwCb1u9FiF9ZlkgAeBBWzRyWSEEQK8p51PaYovgkGeDWaMr9QHBcZJouuCsBvOWahhHtMWToFsYL1pQCNB384JOm4QOntm7UoA1qbY+ejgt6i6WU+toYUSO1ZbOAPd0BgJrrDVzknyMFz9H3gf0EWJOmDxnZDi4OuoCdHMdo+cHECLG54Xb58BPUT0aq1WqTivikgHVuEBmWV8KZgLr8/OwgymbHx+m9xiwY/xAiREsZHlNNKYldxS7K4NSpNT5fJ23GbbYXkeYPozhSstr6R6IGVPBTuKgOrUi64mBN/DeNfgCeHMNSIR2S9OBfzvSjGQd1Ozn87puJ+5ThNfkrWuDLahLLlVYDJgEZNDhe44W5Egbb+Lug7w1X0ofEJ918Rz6ALFBSUWy6OzQlPT83G1i7+B88MwLjZwZA5QrRK7gIF0hid0U9S8nLnoP6oGQxoAFN/w6vyXzpUJRASJA1KlA75645g3alxQoSS1uNE9L9SzKR9hWkqYhFKif2BYHAL/Q6CgsbEiGNqEIjd4jUH+kkNNkT8Wep5JN8C3mCzEkJIQJdb/iZmhKT91lU8gUkFSLz5P04bh7sG+jYNFpSUxepgUyq3Mdrs7GDT7AZjgxx0HZDgk0PWDJr3VTKuCvhL1kbzAJEtjkeeLeRt+AfyfM3QRApd4XmEIhCYGssFqcJ0wchNyJcbf4D+nHPvo13B6drVGWgoHgxFF4aupRrpMD71KAh4yHTG4uP2BIW3hXSnVTo7fQcKzjxFofkPUMBTMDILsHNMzokHYMyKYSapOsvcXnRccm9lMimLEYTbBqf7BJ4FuMDTYwKwQ+EHyU+om0fn9zD6TXH9bvv/7yD69eX2P07oD716++fP/+ehHAmvFXX+v7WzDCzfevfvHV67/88ghDlEiZrSFXywDGAIcOxIHws6AVRhU/06Wpt9QxM1TJEu9B1mZLzzj74F2MfcBwGYQAXZpxwykpBRUNIMEgsEwtryls4BRRad1XaLBwccKNnVAPgzvXzQ4mhlIEOaLIcKoSVTDt9Ehi5yfcZyFGVyN8dANY9uiMq4gLgwdUMgbOxoVJd+gpkxjQoS085nVdUtcVxPJPFUo2wOQ+csj5Gfd4C2Z/FGrQyx3GhBowT2LNLgWUfAZMeGoX5twQmmcYQyvNsQbsrArGQ5C5Bp8bDz/40W6en+8A00myWgIP59ODbcSwQCwT/HjG4KTlHS/t2C0FMiRzayouRY9tdohbhgxwapHnqHXObj9Xwj1uTA3qLA9IBYOIonVFAFHNwOtZgoerBz1fmPwQaSaFIVBwcCoQyLC9uqB8uFCgJhqpeL10Srds2kAeqQHbYdjhIGbDPnndMkSxiDkKXPulCbc0C68TAwNbyeTh0hU1Xg58DPS1MYb04gk9xL+cc++LdfMEuRO8Add1qPBPGSPUy7x0Zp6S55rBEsZ00cDGBBZ20rW7ECJpLdGPi9F2XwdETmhbry40NC4RAW07NgpZ1JeiI1/nuUnfvP3yt6+PcTaHOXoG6jVgO5InRm1Jl4QqmJbJ6Xx4+Jx8y9o5pCkemiTNjiGtkAitjgZc8hk+uE4b/vKcG94GjeYxQGH68FTSFoN2iJTQDdaN4JDPP9gnKTevMxC0FYLL+UirdWFwGX7UtbD2nydqcHnKfe5GDZG2QlX6GJbORsaWwGqaLWrI1X6Gbtph74GwpUIGoYvnus+A5ybocBLqsGuJtJ0t/H7KuX/FKFAjQ5rT1OKSRmhdYZhxJRC6Qu9KuTjrhsEDznTG3tfTENRfiN31EKMrDITPsXvfzkajnzIe4PBoRUPD/rCz9UAD2yQAXHgn0BmkA9H5lPpT3i2LjzYCcL25Cs+HlN4cJIq5yh7GZLIWvby4R3icFdooTOfJr3ldbjHniaP2EE8Nsj+fzTY/pT/E5Nn68knqHjwwFaiXzh4GngOAwmpkOts+fU684fJSuMUM4wdywfQs4YK9RmDTVIJF5vz4YnBRyi2b+0olCRQopmbVt4EAUkxuvcsN/Emt/wzb3OfzObJY03WvvPx0VqhRJuiJQj4zN23+clB8yugUIU98iuuRfY2s9HUh0xwIllADtJdezm8HbnhzDaLdII/qelqDwW+6TLnVIYETSTjTQR3hcpB3bRnzYrbA11dsU4Vc7yB3SUNzObO4+xxu2WAsZnEC6kbTmq1LKAa71fWkNqO0Cza44e4RGocIu52zX54bwCdpegcdGOBg4uzpzCPc42wtxXtmgQYCr5AA5XkWcrUkzklo+namMjnss6tCX6EbW4Qjox6hc2MursDUm89ZO8ez0+1+h6FepGIQ5hIhBPW87oXgjCBPuJK0mc9vjj1uNi6hzb7aA2KScExOtHgQdGDJMno7l7H2ODn0lDK6g8tq+kT4W+rZwYMVyFeqVc508c9wcYVcLBBULOvWLgY4EjSHM8rwREZa5Ezk3OPgqDlIBE6OvkCaFPixLtVqjdA2LMO3M6XcUe5FKxhIPiMtAAzc+/DQsy4UI5AUwwZ5dXbaQ5xLA/5ZkGE+vL4SUksm7LNJsvUJTpHz97njmyebQTiC9zKs7ACA9WgJfg+SOdZiI5zJtfscG5CqUAnr2nisd/CyesaD11undc0udD5uHfr0BJ616FiPlAId0Up3HNZNBEmhgLPkc7l1h1NDMG41q6sdyohiWTwD0+xhY3nEsAzP2Yn2uXS9W0m36GIf60WiAZ4LZs88mULEtGBt95789b/f693VQj++PsKYSXRd1piDwF5f5Kk4XjAFH4pphv0OtHe9vxt6y4s81Je5llhtrjvwB2GV0drVW49lqLy42O0rpoml9ZUg+BaUNCIwdUSCFYjAUQ0eFP9iwM2NMsXah0DhzvWqHRnjDdZ2k8vwYB+uYe9VeyfgPpORJrQ7/BAkHUZ4ZANHr0Kqp9FhSHFWLwTdfbCcsBiLoJIfa5lQik0BClNDgh+SkcreG/lOxD1WUjQsaAhAMwav91pwhaxPdXpHHWfMOew9Fe3E3HIPNsYduwbJrVu4qk5KVxcHJiTMjJF7aY2HPh2Mlrk375bLWq9ByfUEus4ezmdS91j4C1G3PAJNEUeEdkrraySSqdChIi5qQ2vlVIEVpwbcd2pK68LB0E7r9TfLQtQHwzRHL2UG2n8v3Al+8EY1Rwx6MwchibbnGFyT9fUbjg+b4Rj3vzbYDbtB/oqBDgxxrMTrEx8PMeIDDHyHyprKM7y8zh18F7SMhmVK1yeZtL4bhcR2dcRYJo4wy4tL3Efx0TLw2q/PHyoYyq8nLZ+GGwn2iDKE9th7J92J+hSrh5YBDRZcyg9G2oNbGwA7kEI+m0yjvYfunXAH3I0veer6/ErWVwqzrNdzOCtog9HY+kzrVfTb/wE=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Environment = _t, Workspace = _t, Dataflow = _t, UUID = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Environment\", type text}, {\"Workspace\", type text}, {\"Dataflow\", type text}, {\"UUID\", type text}})",
+                "in",
+                "  #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

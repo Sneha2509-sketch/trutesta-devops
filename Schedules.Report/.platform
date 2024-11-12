@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Schedules"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3b2905a0-b22e-4537-8483-0090bc68ff66"
+  }
+}
