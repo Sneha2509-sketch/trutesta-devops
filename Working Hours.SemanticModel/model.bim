@@ -1,0 +1,831 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.119.666.0 (23.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"current_Resource_DF_Id\",\"current_WS_Id\",\"resource\",\"certificate_review_audit\",\"deliverable_audit\",\"WorkingHoursLastUpdate\",\"current_WorkingHours_DF_Id\",\"current_TimeZpne_DF_id\",\"deleteAllRows\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "sample.subcategory": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sample",
+                    "ConceptualProperty": "Sub-Category"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Category": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "current_Resource_DF_Id",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"03484637-7ed3-413b-9214-d3eff5b4b697\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "2aaa4a74-7c33-46b5-a393-9631ce54c097"
+      },
+      {
+        "name": "current_WS_Id",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"efe91f83-8d82-4266-8ba1-03c74db98134\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "7008b3f6-2551-44fd-9143-78e8c28c21a2"
+      },
+      {
+        "name": "current_WorkingHours_DF_Id",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"78c212a6-d24c-4259-bad0-3848baa4f250\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "d508c1b8-f9c6-45f3-b0fd-db2ac8e8ee7b"
+      },
+      {
+        "name": "current_TimeZpne_DF_id",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"8874b6ce-3130-49fe-bd93-0c50ea5052b3\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "1af0a1e9-1c0c-4c78-81dd-9ba9513d8699"
+      },
+      {
+        "name": "deleteAllRows",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Logical"
+          }
+        ],
+        "description": "If TRUE then all rows will be deleted",
+        "expression": "false meta [IsParameterQuery=true, List={true, false}, DefaultValue=true, Type=\"Logical\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "905973ab-109b-47fc-b2ad-83603e741b3a"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "f9cd6c3d-73b5-4ffe-bce4-326ac4827b3e",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "Resource",
+        "fromTable": "Events",
+        "toCardinality": "many",
+        "toColumn": "resource_name",
+        "toTable": "resource"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Events",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "69f412dbfa6745c693b5823f621eef92"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "e8059f0f-50d5-451c-b15b-7407f5ed4d90",
+            "sourceColumn": "certificate_review_audit[id]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Date Created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "26d08f32-1394-4f9c-b777-c4e0099d030c",
+            "sourceColumn": "certificate_review_audit[date_created]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Resource",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "6a8a7d79-ecab-4e87-9c24-481c5cd9b706",
+            "sourceColumn": "certificate_review_audit[created_by_name]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Event Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "ecaea9cf-b91d-43d4-8dd6-7fa5a1de946b",
+            "sourceColumn": "certificate_review_audit[event_name]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT(Events[Date Created], \"ddd\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "db93edf3-7530-4775-98c7-65d67de3dd0e",
+            "sortByColumn": "Day of Week",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "working_time_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "968d04c9-6e05-4bd0-ad00-835a11410d42",
+            "sourceColumn": "certificate_review_audit[working_time_zone]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Day of Week",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "WEEKDAY(Events[Date Created], 2)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "1e644956-2dde-476e-a1e4-93e994781d40",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Hour",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "HOUR(Events[Date Created])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "cc0d33c9-8059-4099-ac68-ea1258e8f10f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT(Events[Date Created], \"mmmm\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "6fec61db-cf6a-432c-a540-65b0326be7e9",
+            "sortByColumn": "Month Number",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "MONTH(Events[Date Created])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "61b3fbb6-faf9-445a-ada3-3f34d369df4b",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "YEAR(Events[Date Created])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "3d21407d-a877-416e-ba53-11ff615e1c6e",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "879e2c41-08b0-4093-acd4-6144ce7ec637",
+        "measures": [
+          {
+            "name": "Total Events",
+            "expression": "COUNTROWS(Events)",
+            "formatString": "0",
+            "lineageTag": "1cd4150d-dd19-416b-87ea-b0c211a31655"
+          },
+          {
+            "name": "SD by Day",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "STDEVX.P(",
+              "    KEEPFILTERS(",
+              "        VALUES(",
+              "            'Events'[Day]",
+              "        )",
+              "    ),",
+              "    CALCULATE([Total Events])",
+              ")"
+            ],
+            "lineageTag": "16b1829f-8fbb-4121-8302-4d8ef1b58e8c"
+          },
+          {
+            "name": "SD by Day of Week",
+            "expression": [
+              "STDEVX.P(",
+              "    KEEPFILTERS(",
+              "        VALUES(",
+              "            'Events'[Day of Week]",
+              "        )",
+              "    ),",
+              "    CALCULATE([Total Events])",
+              ")"
+            ],
+            "formatString": "0.000",
+            "lineageTag": "c74e821e-46e1-4175-8be0-b47eb428a7be"
+          },
+          {
+            "name": "Total Events (with Blanks)",
+            "expression": "IF(ISBLANK([Total Events]), 0, [Total Events])",
+            "formatString": "0",
+            "lineageTag": "b5ccdf69-afab-4158-bbe6-8a6578b6e62b"
+          },
+          {
+            "name": "Measure New",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "expression": [
+              "STDEVX.P(",
+              "    KEEPFILTERS(",
+              "        VALUES(",
+              "            'Events'[Date Created]",
+              "        )",
+              "    ),",
+              "    CALCULATE(",
+              "        'Events'[Total Events],",
+              "        KEEPFILTERS(",
+              "            VALUES(Events[Day of Week]",
+              "        )",
+              "    )",
+              "))"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "NLtoDAX",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "6575b329-7bb3-4c10-8cef-38a57cb8fcc3"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Events-527ba773-f9ce-4336-8f4a-a22615cb8bb3",
+            "mode": "import",
+            "source": {
+              "expression": "UNION(certificate_review_audit, deliverable_audit)",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "resource",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "resource_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5b04713b-652d-4c30-8694-c8e2cd9e8203",
+            "sourceColumn": "resource_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "working_time_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cffb604b-9c32-44e1-a074-62aacb5970b9",
+            "sourceColumn": "working_time_zone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "resource_display_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6fb1443d-225c-49bf-b9a5-239743020ce9",
+            "sourceColumn": "resource_display_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organization_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1a0dc7be-c6d3-4ed6-b6be-0af7277423b8",
+            "sourceColumn": "organization_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "008a2571-b75d-4727-b68f-cd3223d2ea68",
+        "partitions": [
+          {
+            "name": "resource-d8b241b3-2d1c-475d-b01a-adef8ce35b2e",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=current_WS_Id]}[Data],",
+                "    #\"03484637-7ed3-413b-9214-d3eff5b4b697\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=current_Resource_DF_Id]}[Data],",
+                "    resource_ = #\"03484637-7ed3-413b-9214-d3eff5b4b697\"{[entity=\"resource\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(resource_, 0, Table.RowCount(resource_)) else resource_,",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(RemovedRows,{\"resource_name\", \"working_time_zone\", \"resource_display_name\", \"organization_id\"}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Removed Other Columns\",\"EDT\",\"EST\",Replacer.ReplaceValue,{\"working_time_zone\"})",
+                "in",
+                "    #\"Replaced Value\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "certificate_review_audit",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f28f2783-344c-40c1-91b7-947022069476",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "002f8e8c-a3c6-477a-b541-6f9e8b3bbc5c",
+            "sourceColumn": "date_created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "created_by_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bafeb0cd-3b88-46c0-9fd4-97d7379937a8",
+            "sourceColumn": "created_by_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "event_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "50daa731-4a4d-41e5-a65a-39a46d3864f1",
+            "sourceColumn": "event_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "working_time_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7f0a025c-72a6-4cc0-8c5e-6e1f003803c8",
+            "sourceColumn": "working_time_zone",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2510923b-953f-4790-9b15-06192c1c2844",
+        "partitions": [
+          {
+            "name": "certificate_review_audit-ab1243da-8a5a-44cf-8598-52c295c8a9d1",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=current_WS_Id]}[Data],",
+                "    #\"78c212a6-d24c-4259-bad0-3848baa4f250\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=current_WorkingHours_DF_Id]}[Data],",
+                "    certificate_review_audit_ = #\"78c212a6-d24c-4259-bad0-3848baa4f250\"{[entity=\"certificate_review_audit\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(certificate_review_audit_, 0, Table.RowCount(certificate_review_audit_)) else certificate_review_audit_,",
+                "    #\"Replaced Value\" = Table.ReplaceValue(RemovedRows,\"EDT\",\"EST\",Replacer.ReplaceValue,{\"working_time_zone\"})",
+                "in",
+                "    #\"Replaced Value\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "deliverable_audit",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3f00b28-7827-4877-a204-2162c985a563",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "daaca4b0-365f-454f-8f28-577729b5389a",
+            "sourceColumn": "date_created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "created_by_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f8c17c3-94ed-45b2-b90e-beb50a9de297",
+            "sourceColumn": "created_by_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "event_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ab998219-4c16-4c96-bd23-85b11d44cb02",
+            "sourceColumn": "event_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "working_time_zone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f4cd6604-59d0-4dd3-8ff5-b402b44c023d",
+            "sourceColumn": "working_time_zone",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "783257a8-4149-4589-b5a8-90add168120d",
+        "partitions": [
+          {
+            "name": "deliverable_audit-f60bd54e-6c03-4df3-a48e-88855dc4e232",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=current_WS_Id]}[Data],",
+                "    #\"78c212a6-d24c-4259-bad0-3848baa4f250\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=current_WorkingHours_DF_Id]}[Data],",
+                "    deliverable_audit_ = #\"78c212a6-d24c-4259-bad0-3848baa4f250\"{[entity=\"deliverable_audit\",version=\"\"]}[Data],",
+                "    RemovedRows = if deleteAllRows then Table.RemoveRows(deliverable_audit_, 0, Table.RowCount(deliverable_audit_)) else deliverable_audit_,",
+                "   #\"Replaced Value\" = Table.ReplaceValue(RemovedRows,\"EDT\",\"EST\",Replacer.ReplaceValue,{\"working_time_zone\"})",
+                "in",
+                "    #\"Replaced Value\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "WorkingHoursLastUpdate",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Updated Time in UTC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "8a9fe959-9124-4188-8f24-ffabb3c4b211",
+            "sourceColumn": "Updated Time in UTC",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "989ef793-acc2-479a-8678-a14be55e580b",
+        "partitions": [
+          {
+            "name": "WorkingHoursLastUpdate-97ee301e-5c3e-46b3-a8e2-3c856bc41a75",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PowerPlatform.Dataflows(null),",
+                "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+                "    #\"efe91f83-8d82-4266-8ba1-03c74db98134\" = Workspaces{[workspaceId=current_WS_Id]}[Data],",
+                "    #\"78c212a6-d24c-4259-bad0-3848baa4f250\" = #\"efe91f83-8d82-4266-8ba1-03c74db98134\"{[dataflowId=current_WorkingHours_DF_Id]}[Data],",
+                "    WorkingHoursLastUpdate_ = #\"78c212a6-d24c-4259-bad0-3848baa4f250\"{[entity=\"WorkingHoursLastUpdate\",version=\"\"]}[Data]",
+                "in",
+                "    WorkingHoursLastUpdate_"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Ivy Ho",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "d7e3fb29601e49e2a61186b64ef468a0"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Day of Week",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "32392590-d7af-465a-96b9-b5c51444a03c",
+            "sourceColumn": "Events[Day of Week]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Total Events",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "15f9972a-74c0-489c-9603-b826e1566db5",
+            "sourceColumn": "[Total Events]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "ffe625ef-df6a-4231-b441-4bf1f4da07b7",
+        "partitions": [
+          {
+            "name": "Ivy Ho-60c84fce-bdea-46e3-a23e-cfc48a831fa5",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "CALCULATETABLE(",
+                "    ADDCOLUMNS(",
+                "        VALUES(Events[Day of Week]),",
+                "        \"Total Events\", [Total Events]),",
+                "        Events[Month Number] = 12,",
+                "        Events[Resource] = \"ivy.ho@intertek.com\"",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
